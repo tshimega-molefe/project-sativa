@@ -1,7 +1,6 @@
 import { User } from "../../payload-types";
 import { BeforeChangeHook } from "payload/dist/collections/config/types";
 import { Access, CollectionConfig } from "payload/types";
-import { boolean } from "zod";
 
 const yourOwnAndPurchased: Access = async ({ req }) => {
   const user = req.user as User | null;

@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
+import { cn, constructMetadata } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Providers from "@/components/Providers";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Sativa",
-  description:
-    "Buy & Sell Cannabis related products from verified vendors on our platform.",
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({
   children,
@@ -35,6 +32,7 @@ export default function RootLayout({
             <Providers>
               <Navbar />
               <div className="flex-grow flex-1">{children}</div>
+              <Footer />
             </Providers>
           </main>
           <Toaster />
