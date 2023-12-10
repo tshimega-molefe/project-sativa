@@ -163,7 +163,7 @@ const ThankYouPage = async ({ searchParams }: PageProps) => {
 
                 <div className="flex items-center justify-between border-t border-muted pt-6 text-secondary-foreground">
                   <p className="text-base">Total</p>
-                  <p className="text-base">{formatPrice(orderTotal + 1)}</p>
+                  <p className="text-base">{formatPrice(orderTotal + 4)}</p>
                 </div>
               </div>
 
