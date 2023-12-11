@@ -2,27 +2,28 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import ProductReel from "@/components/ProductReel";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Bot, CheckCircle, PlaneTakeoff } from "lucide-react";
+import { GraduationCap, CheckCircle, PlaneTakeoff } from "lucide-react";
 import Link from "next/link";
 
 const features = [
   {
-    name: "Drone Delivery",
-    icon: PlaneTakeoff,
-    description:
-      "Instant autonomous delivery with our fleet of the safest, and latest aerial drone technology.",
-  },
-  {
     name: "Guaranteed Quality",
     icon: CheckCircle,
     description:
-      "Every vender on our platform is verified by our team to uphold safety, and security standards.",
+      "Every vender on Sativa is verified by our team to uphold safety, and security standards.",
   },
   {
-    name: "Powered with AI",
-    icon: Bot,
+    name: "UAV Delivery",
+    icon: PlaneTakeoff,
     description:
-      "Leverage our various AI tools to learn, analyse, and make informed purchases.",
+      "We're trying to raise some funds. Stick around with us 'till we can do delivery with UAVs.",
+  },
+
+  {
+    name: "Learn More",
+    icon: GraduationCap,
+    description:
+      "Learn how to grow, learn about others, and learn way more about yourself. ",
   },
 ];
 
@@ -32,14 +33,14 @@ export default function Home() {
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-secondary-foreground sm:text-6xl">
-            Buy and sell&nbsp;
-            <span className="text-primary">Cannabis, CBD, Hemp or Smoke</span>
-            &nbsp;related products.
+            Got&nbsp;
+            <span className="text-primary">Green?</span>
           </h1>
-          <p className="mt-6 text-lg max-w-prose text-muted-foreground">
-            Welcome to <span className="font-bold text-primary">Sativa</span>.
-            Every vendor on our platform is verified by our team to uphold
-            safety, and security standards.
+          <p className="mt-6 text-lg max-w-prose text-primary">
+            Welcome back.&nbsp;
+            <span className="text-muted-foreground">
+              Nice to see you again.
+            </span>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Link href="/products" className={cn(buttonVariants())}>
@@ -51,8 +52,8 @@ export default function Home() {
         {/* TODO: List Products */}
         <ProductReel
           query={{ sort: "desc", limit: 4 }}
-          title="Brand New"
-          subtitle="Shop the latest products from our top growers and suppliers."
+          title="New arrivals"
+          subtitle="Shop now. Giggle later."
           href="/products"
         />
       </MaxWidthWrapper>
