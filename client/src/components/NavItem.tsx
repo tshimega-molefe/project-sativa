@@ -1,6 +1,6 @@
 "use client";
 import { PRODUCT_CATEGORIES } from "@/config";
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -47,7 +47,7 @@ const NavItem = ({ isAnyOpen, product, handleOpen, isOpen }: NavItemProps) => {
             aria-hidden="true"
           />
           <div className="relative bg-background">
-            <div className="mx-auto max-w-7xl px-8">
+            <div className="mx-auto max-w-7xl px-8 md:py-4">
               <div className="col-span-4 col-start-1 grid grid-cols-3 gap-x-8">
                 {product.featured.map((item) => (
                   <div
@@ -62,15 +62,20 @@ const NavItem = ({ isAnyOpen, product, handleOpen, isOpen }: NavItemProps) => {
                         className="object-cover object-center"
                       />
                     </div>
-                    <Link
-                      href={item.href}
-                      className="mt-6 block font-medium text-secondary-foreground"
-                    >
+
+                    <p className="mt-6 block font-medium text-secondary-foreground">
                       {item.name}
-                    </Link>
-                    <p className="mt-1" aria-hidden="true">
-                      Buy now
                     </p>
+                    <Link
+                      href="/products"
+                      className={cn(
+                        buttonVariants({ variant: "link" }),
+                        "-ml-4"
+                      )}
+                      aria-hidden="true"
+                    >
+                      Buy now
+                    </Link>
                   </div>
                 ))}
               </div>

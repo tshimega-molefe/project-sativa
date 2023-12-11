@@ -1,6 +1,6 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: "Sativa",
+    label: "Green",
     value: "sativa" as const,
     featured: [
       {
@@ -41,27 +41,27 @@ export const PRODUCT_CATEGORIES = [
   //     },
   //   ],
   // },
-  {
-    label: "Indica",
-    value: "indica" as const,
-    featured: [
-      {
-        name: "Indoor",
-        href: "#",
-        imageSrc: "/nav/indica/indica-indoor.jpg",
-      },
-      {
-        name: "Outdoor",
-        href: "#",
-        imageSrc: "/nav/indica/indica-outdoor.jpg",
-      },
-      {
-        name: "Greenhouse",
-        href: "#",
-        imageSrc: "/nav/indica/indica-greenhouse.jpg",
-      },
-    ],
-  },
+  // {
+  //   label: "Indica",
+  //   value: "indica" as const,
+  //   featured: [
+  //     {
+  //       name: "Indoor",
+  //       href: "#",
+  //       imageSrc: "/nav/indica/indica-indoor.jpg",
+  //     },
+  //     {
+  //       name: "Outdoor",
+  //       href: "#",
+  //       imageSrc: "/nav/indica/indica-outdoor.jpg",
+  //     },
+  //     {
+  //       name: "Greenhouse",
+  //       href: "#",
+  //       imageSrc: "/nav/indica/indica-greenhouse.jpg",
+  //     },
+  //   ],
+  // },
   {
     label: "CBD",
     value: "cbd" as const,
@@ -83,46 +83,46 @@ export const PRODUCT_CATEGORIES = [
       },
     ],
   },
-  // {
-  //   label: "Hemp",
-  //   value: "hemp" as const,
-  //   featured: [
-  //     {
-  //       name: "Health",
-  //       href: "#",
-  //       imageSrc: "/nav/hemp/hemp-health.jpg",
-  //     },
-  //     {
-  //       name: "Industrial",
-  //       href: "#",
-  //       imageSrc: "/nav/hemp/hemp-industrial.jpg",
-  //     },
-  //     {
-  //       name: "Consumable",
-  //       href: "#",
-  //       imageSrc: "/nav/hemp/hemp-consumable.jpg",
-  //     },
-  //   ],
-  // },
   {
-    label: "Smoke",
-    value: "smoke" as const,
+    label: "Hemp",
+    value: "hemp" as const,
     featured: [
       {
-        name: "Disposables",
+        name: "Health",
         href: "#",
-        imageSrc: "/nav/smoke/smoke-disposables.jpg",
+        imageSrc: "/nav/hemp/hemp-health.jpg",
       },
       {
-        name: "Flavours",
+        name: "Industrial",
         href: "#",
-        imageSrc: "/nav/smoke/smoke-flavours.jpg",
+        imageSrc: "/nav/hemp/hemp-industrial.jpg",
       },
       {
-        name: "Starter Kits",
+        name: "Consumable",
         href: "#",
-        imageSrc: "/nav/smoke/smoke-starter.jpg",
+        imageSrc: "/nav/hemp/hemp-consumable.jpg",
       },
     ],
   },
+  // {
+  //   label: "Smoke",
+  //   value: "smoke" as const,
+  //   featured: [
+  //     {
+  //       name: "Disposables",
+  //       href: "#",
+  //       imageSrc: "/nav/smoke/smoke-disposables.jpg",
+  //     },
+  //     {
+  //       name: "Flavours",
+  //       href: "#",
+  //       imageSrc: "/nav/smoke/smoke-flavours.jpg",
+  //     },
+  //     {
+  //       name: "Starter Kits",
+  //       href: "#",
+  //       imageSrc: "/nav/smoke/smoke-starter.jpg",
+  //     },
+  //   ],
+  // },
 ];

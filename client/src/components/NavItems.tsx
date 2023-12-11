@@ -29,6 +29,8 @@ const NavItems = () => {
 
   useOnClickOutside(navRef, () => setactiveIndex(null));
 
+  // TODO: Pass Products, and Product Categories into the NavItems
+
   return (
     <div className="flex gap-4 h-full" ref={navRef}>
       {PRODUCT_CATEGORIES.map((product, i) => {
