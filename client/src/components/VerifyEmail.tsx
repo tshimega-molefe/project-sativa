@@ -17,7 +17,7 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
 
   if (isError) {
     return (
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-2 h-full">
         <XCircle className="h-8 w-8 text-destructive" />
         <h3 className="font-semibold text-xl">Uh oh! There was a problem</h3>
         <p className="text-muted-foreground text-sm">
