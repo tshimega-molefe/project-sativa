@@ -31,7 +31,7 @@ export const PRODUCT_CATEGORIES = [
       },
       {
         name: "New Arrivals",
-        href: "/products/?category=cbdsort=desc",
+        href: "/products/?category=cbd&sort=desc",
         imageSrc: "/nav/cbd/cbd-capsules.jpg",
       },
       {
