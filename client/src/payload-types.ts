@@ -40,9 +40,9 @@ export interface Product {
   id: string;
   user?: (string | null) | User;
   name: string;
-  description: string;
+  description?: string | null;
   price: number;
-  category: 'sativa' | 'indica' | 'cbd' | 'smoke';
+  category: 'sativa' | 'cbd' | 'hemp';
   product_files: string | ProductFile;
   approvedForSale?: ('pending' | 'approved' | 'denied') | null;
   priceId?: string | null;
