@@ -27,7 +27,7 @@ export function formatPrice(
 
 export function constructMetadata({
   title = "Sativa - Got Green?",
-  description = "Sativa is a cannabis supply-chain and logistics startup, and a marketplace for buying and selling high-quality cannabis, hemp, and cbd products. Buyers and Sellers are both individuals, dispensaries, and large distributors. Our main customers are from the United States and South Africa, and our next phase involves shipping out of Central America to reduce US, and South American shipping costs. Watch the skies!",
+  description = "Sativa is a Drone Supply-chain and Logistics startup, and a marketplace for buying and selling high-quality cannabis, hemp, and cbd products. Buyers and Sellers are both individuals, dispensaries, and large distributors. Our main customers are from the United States and South Africa, and our next phase involves shipping out of Central America to reduce US, and European shipping costs. Watch the skies!",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false,

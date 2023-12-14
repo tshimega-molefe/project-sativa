@@ -20,65 +20,23 @@ export const PRODUCT_CATEGORIES = [
       },
     ],
   },
-  // {
-  //   label: "Hybrid",
-  //   value: "hybrid" as const,
-  //   featured: [
-  //     {
-  //       name: "Indoor",
-  //       href: "#",
-  //       imageSrc: "/nav/hybrid/hybrid-indoor.jpg",
-  //     },
-  //     {
-  //       name: "Outdoor",
-  //       href: "#",
-  //       imageSrc: "/nav/hybrid/hybrid-outdoor.jpg",
-  //     },
-  //     {
-  //       name: "Greenhouse",
-  //       href: "#",
-  //       imageSrc: "/nav/hybrid/hybrid-greenhouse.jpg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: "Indica",
-  //   value: "indica" as const,
-  //   featured: [
-  //     {
-  //       name: "Indoor",
-  //       href: "#",
-  //       imageSrc: "/nav/indica/indica-indoor.jpg",
-  //     },
-  //     {
-  //       name: "Outdoor",
-  //       href: "#",
-  //       imageSrc: "/nav/indica/indica-outdoor.jpg",
-  //     },
-  //     {
-  //       name: "Greenhouse",
-  //       href: "#",
-  //       imageSrc: "/nav/indica/indica-greenhouse.jpg",
-  //     },
-  //   ],
-  // },
   {
     label: "CBD",
     value: "cbd" as const,
     featured: [
       {
-        name: "Oils",
-        href: "/products/?category=CBD",
+        name: "Recommended",
+        href: "/products/?category=cbd",
         imageSrc: "/nav/cbd/cbd-oils.jpg",
       },
       {
-        name: "Capsules",
-        href: "/products/?category=CBD&sort=desc",
+        name: "New Arrivals",
+        href: "/products/?category=cbdsort=desc",
         imageSrc: "/nav/cbd/cbd-capsules.jpg",
       },
       {
-        name: "Juices",
-        href: "/products/?category=CBD",
+        name: "Best Sellers",
+        href: "/products/?category=cbd",
         imageSrc: "/nav/cbd/cbd-juices.jpg",
       },
     ],
@@ -88,41 +46,20 @@ export const PRODUCT_CATEGORIES = [
     value: "hemp" as const,
     featured: [
       {
-        name: "Health",
+        name: "Recommended",
         href: "/products/?category=hemp",
         imageSrc: "/nav/hemp/hemp-health.jpg",
       },
       {
-        name: "Industrial",
-        href: "/products/?category=CBD&sort=desc",
+        name: "New Arrivals",
+        href: "/products/?category=hemp&sort=desc",
         imageSrc: "/nav/hemp/hemp-industrial.jpg",
       },
       {
-        name: "Consumable",
-        href: "/products/?category=CBD",
+        name: "Best Sellers",
+        href: "/products/?category=hemp",
         imageSrc: "/nav/hemp/hemp-consumable.jpg",
       },
     ],
   },
-  // {
-  //   label: "Smoke",
-  //   value: "smoke" as const,
-  //   featured: [
-  //     {
-  //       name: "Disposables",
-  //       href: "#",
-  //       imageSrc: "/nav/smoke/smoke-disposables.jpg",
-  //     },
-  //     {
-  //       name: "Flavours",
-  //       href: "#",
-  //       imageSrc: "/nav/smoke/smoke-flavours.jpg",
-  //     },
-  //     {
-  //       name: "Starter Kits",
-  //       href: "#",
-  //       imageSrc: "/nav/smoke/smoke-starter.jpg",
-  //     },
-  //   ],
-  // },
 ];

@@ -54,20 +54,22 @@ const NavItem = ({ isAnyOpen, product, handleOpen, isOpen }: NavItemProps) => {
                     key={item.name}
                     className="group relative text-base sm:text-sm"
                   >
-                    <div className="relative aspect-video overflow-hidden rounded-lg bg-muted group-hover:opacity-75">
-                      <Image
-                        src={item.imageSrc}
-                        alt="product category image"
-                        fill
-                        className="object-cover object-center"
-                      />
-                    </div>
+                    <Link href={item.href}>
+                      <div className="relative aspect-video overflow-hidden rounded-lg bg-muted group-hover:opacity-75">
+                        <Image
+                          src={item.imageSrc}
+                          alt="product category image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </Link>
 
                     <p className="mt-6 block font-medium text-secondary-foreground">
                       {item.name}
                     </p>
                     <Link
-                      href="/products"
+                      href={item.href}
                       className={cn(
                         buttonVariants({ variant: "link" }),
                         "-ml-4"
