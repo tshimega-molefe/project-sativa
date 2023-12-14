@@ -58,7 +58,7 @@ export function constructMetadata({
       creator: "@sativa-inc",
     },
     icons,
-    metadataBase: new URL("http://sativa.up.railway.app"),
+    metadataBase: new URL("http://sativa-sa.vercel.app"),
     ...(noIndex && {
       robots: {
         index: false,
