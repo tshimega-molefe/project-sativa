@@ -4,18 +4,18 @@ export const PRODUCT_CATEGORIES = [
     value: "sativa" as const,
     featured: [
       {
-        name: "Indoor",
-        href: "#",
+        name: "Recommended",
+        href: "/products/?category=green",
         imageSrc: "/nav/sativa/sativa-indoor.jpg",
       },
       {
-        name: "Outdoor",
-        href: "#",
+        name: "New Arrivals",
+        href: "/products/?category=green&sort=desc",
         imageSrc: "/nav/sativa/sativa-outdoor.jpg",
       },
       {
-        name: "Greenhouse",
-        href: "#",
+        name: "Best Sellers",
+        href: "/products/?category=green",
         imageSrc: "/nav/sativa/sativa-greenhouse.jpg",
       },
     ],
@@ -68,17 +68,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: "Oils",
-        href: "#",
+        href: "/products/?category=CBD",
         imageSrc: "/nav/cbd/cbd-oils.jpg",
       },
       {
         name: "Capsules",
-        href: "#",
+        href: "/products/?category=CBD&sort=desc",
         imageSrc: "/nav/cbd/cbd-capsules.jpg",
       },
       {
         name: "Juices",
-        href: "#",
+        href: "/products/?category=CBD",
         imageSrc: "/nav/cbd/cbd-juices.jpg",
       },
     ],
@@ -89,17 +89,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: "Health",
-        href: "#",
+        href: "/products/?category=hemp",
         imageSrc: "/nav/hemp/hemp-health.jpg",
       },
       {
         name: "Industrial",
-        href: "#",
+        href: "/products/?category=CBD&sort=desc",
         imageSrc: "/nav/hemp/hemp-industrial.jpg",
       },
       {
         name: "Consumable",
-        href: "#",
+        href: "/products/?category=CBD",
         imageSrc: "/nav/hemp/hemp-consumable.jpg",
       },
     ],
