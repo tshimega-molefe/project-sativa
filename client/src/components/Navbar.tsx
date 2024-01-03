@@ -29,6 +29,9 @@ const Navbar = async () => {
               <div className="lg:hidden absolute right-3">
                 <ModeToggle />
               </div>
+              <div className="lg:hidden absolute right-16">
+                <Cart />
+              </div>
               <div className="hidden z-50 lg:ml-4 lg:flex items-center justify-center lg:self-stretch">
                 <NavItems />
               </div>
