@@ -26,7 +26,7 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = "Budd - Got Green?",
+  title = "Budd - Need Budd?",
   description = "Budd is a Drone Supply-chain and Logistics startup, and a marketplace for buying and selling high-quality cannabis, hemp, and cbd products. Buyers and Sellers are both individuals, dispensaries, and large distributors. Our main customers are from the United States and South Africa, and our next phase involves shipping out of Central America to reduce US, and European shipping costs. Watch the skies!",
   image = "/thumbnail.jpg",
   icons = "/favicon.ico",
