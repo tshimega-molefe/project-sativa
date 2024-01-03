@@ -4,17 +4,17 @@ export const PRODUCT_CATEGORIES = [
     value: "flower" as const,
     featured: [
       {
-        name: "Recommended",
+        name: "Indoor",
         href: "/products/?category=flower",
         imageSrc: "/nav/flower/flower-indoor.jpg",
       },
       {
-        name: "New Arrivals",
+        name: "Outdoor",
         href: "/products/?category=flower&sort=desc",
         imageSrc: "/nav/flower/flower-outdoor.jpg",
       },
       {
-        name: "Best Sellers",
+        name: "Greenhouse",
         href: "/products/?category=flower",
         imageSrc: "/nav/flower/flower-greenhouse.jpg",
       },
