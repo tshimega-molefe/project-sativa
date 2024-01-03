@@ -46,19 +46,19 @@ export const PRODUCT_CATEGORIES = [
     value: "edibles" as const,
     featured: [
       {
-        name: "Recommended",
+        name: "Chocolate",
         href: "/products/?category=edibles",
-        imageSrc: "/nav/edibles/edibles-health.jpg",
+        imageSrc: "/nav/edibles/chocolate.jpg",
       },
       {
-        name: "New Arrivals",
+        name: "Cookies",
         href: "/products/?category=edibles&sort=desc",
-        imageSrc: "/nav/edibles/edibles-industrial.jpg",
+        imageSrc: "/nav/edibles/cookies.jpg",
       },
       {
-        name: "Best Sellers",
+        name: "Gummies",
         href: "/products/?category=edibles",
-        imageSrc: "/nav/edibles/edibles-consumable.jpg",
+        imageSrc: "/nav/edibles/gummies.jpg",
       },
     ],
   },
