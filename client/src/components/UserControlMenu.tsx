@@ -21,7 +21,7 @@ const UserControlMenu = ({ user }: UserControlMenuProps) => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild className="overflow-visible">
-        <Button variant="ghost" size="sm" className="relative">
+        <Button variant="ghost" size="sm" className="relative max-lg:w-full">
           My Account
         </Button>
       </DropdownMenuTrigger>
