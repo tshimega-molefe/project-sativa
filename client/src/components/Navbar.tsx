@@ -20,10 +20,14 @@ const Navbar = async () => {
           <div className="border-b border-muted">
             <div className="flex h-16 items-center">
               <MobileNav />
-              <div className="ml-4 flex lg:ml-0">
+
+              <div className="mx-1 flex lg:ml-0">
                 <Link href="/">
                   <Icons.logo className="w-auto h-14" />
                 </Link>
+              </div>
+              <div className="lg:hidden absolute right-3">
+                <ModeToggle />
               </div>
               <div className="hidden z-50 lg:ml-4 lg:flex items-center justify-center lg:self-stretch">
                 <NavItems />

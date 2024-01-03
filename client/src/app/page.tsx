@@ -43,7 +43,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Link href="/products" className={cn(buttonVariants())}>
-              Browse Flower
+              Browse Budd
             </Link>
             <Link
               href="/learn"
