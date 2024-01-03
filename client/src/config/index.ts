@@ -1,22 +1,22 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: "Green",
-    value: "budd" as const,
+    label: "Flower",
+    value: "flower" as const,
     featured: [
       {
         name: "Recommended",
-        href: "/products/?category=green",
-        imageSrc: "/nav/budd/budd-indoor.jpg",
+        href: "/products/?category=flower",
+        imageSrc: "/nav/flower/flower-indoor.jpg",
       },
       {
         name: "New Arrivals",
-        href: "/products/?category=green&sort=desc",
-        imageSrc: "/nav/budd/budd-outdoor.jpg",
+        href: "/products/?category=flower&sort=desc",
+        imageSrc: "/nav/flower/flower-outdoor.jpg",
       },
       {
         name: "Best Sellers",
-        href: "/products/?category=green",
-        imageSrc: "/nav/budd/budd-greenhouse.jpg",
+        href: "/products/?category=flower",
+        imageSrc: "/nav/flower/flower-greenhouse.jpg",
       },
     ],
   },
@@ -42,23 +42,23 @@ export const PRODUCT_CATEGORIES = [
     ],
   },
   {
-    label: "Hemp",
-    value: "hemp" as const,
+    label: "Edibles",
+    value: "edibles" as const,
     featured: [
       {
         name: "Recommended",
-        href: "/products/?category=hemp",
-        imageSrc: "/nav/hemp/hemp-health.jpg",
+        href: "/products/?category=edibles",
+        imageSrc: "/nav/edibles/edibles-health.jpg",
       },
       {
         name: "New Arrivals",
-        href: "/products/?category=hemp&sort=desc",
-        imageSrc: "/nav/hemp/hemp-industrial.jpg",
+        href: "/products/?category=edibles&sort=desc",
+        imageSrc: "/nav/edibles/edibles-industrial.jpg",
       },
       {
         name: "Best Sellers",
-        href: "/products/?category=hemp",
-        imageSrc: "/nav/hemp/hemp-consumable.jpg",
+        href: "/products/?category=edibles",
+        imageSrc: "/nav/edibles/edibles-consumable.jpg",
       },
     ],
   },
