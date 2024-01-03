@@ -54,7 +54,7 @@ const NavItem = ({ isAnyOpen, product, handleOpen, isOpen }: NavItemProps) => {
                     key={item.name}
                     className="group relative text-base sm:text-sm"
                   >
-                    <Link href={item.href}>
+                    <Link href={item.href} onClick={handleOpen}>
                       <div className="relative aspect-video overflow-hidden rounded-lg bg-muted group-hover:opacity-75">
                         <Image
                           src={item.imageSrc}
@@ -70,6 +70,7 @@ const NavItem = ({ isAnyOpen, product, handleOpen, isOpen }: NavItemProps) => {
                     </p>
                     <Link
                       href={item.href}
+                      onClick={handleOpen}
                       className={cn(
                         buttonVariants({ variant: "link" }),
                         "-ml-4"

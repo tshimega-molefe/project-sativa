@@ -1,20 +1,41 @@
 export const PRODUCT_CATEGORIES = [
   {
+    label: "Edibles",
+    value: "edibles" as const,
+    featured: [
+      {
+        name: "Recommended",
+        href: "/products/?category=edibles",
+        imageSrc: "/nav/edibles/chocolate.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "/products/?category=edibles&sort=desc",
+        imageSrc: "/nav/edibles/cookies.jpg",
+      },
+      {
+        name: "Best Sellers",
+        href: "/products/?category=edibles",
+        imageSrc: "/nav/edibles/gummies.jpg",
+      },
+    ],
+  },
+  {
     label: "Flower",
     value: "flower" as const,
     featured: [
       {
-        name: "Indoor",
+        name: "Recommended",
         href: "/products/?category=flower",
         imageSrc: "/nav/flower/flower-indoor.jpg",
       },
       {
-        name: "Outdoor",
+        name: "New Arrivals",
         href: "/products/?category=flower&sort=desc",
         imageSrc: "/nav/flower/flower-outdoor.jpg",
       },
       {
-        name: "Greenhouse",
+        name: "Best Sellers",
         href: "/products/?category=flower",
         imageSrc: "/nav/flower/flower-greenhouse.jpg",
       },
@@ -38,27 +59,6 @@ export const PRODUCT_CATEGORIES = [
         name: "Best Sellers",
         href: "/products/?category=cbd",
         imageSrc: "/nav/cbd/cbd-juices.jpg",
-      },
-    ],
-  },
-  {
-    label: "Edibles",
-    value: "edibles" as const,
-    featured: [
-      {
-        name: "Recommended",
-        href: "/products/?category=edibles",
-        imageSrc: "/nav/edibles/chocolate.jpg",
-      },
-      {
-        name: "New Arrivals",
-        href: "/products/?category=edibles&sort=desc",
-        imageSrc: "/nav/edibles/cookies.jpg",
-      },
-      {
-        name: "Best Sellers",
-        href: "/products/?category=edibles",
-        imageSrc: "/nav/edibles/gummies.jpg",
       },
     ],
   },
