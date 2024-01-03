@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="py-10 md:flex md:items-center md:justify-between">
           <div className="text-center md:text-left">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Sativa Inc. All Rights Reserved
+              &copy; {new Date().getFullYear()} Budd Inc. All Rights Reserved
             </p>
           </div>
 

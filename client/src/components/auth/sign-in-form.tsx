@@ -53,7 +53,7 @@ export function SignInForm({ isSeller }: SignInFormProps) {
     // Handling user successfully signing in using the input email.
     onSuccess: async () => {
       toast({
-        description: `Signed in successfully. Welcome back to Sativa.`,
+        description: `Signed in successfully. Welcome back to Budd.`,
       });
 
       if (origin) {

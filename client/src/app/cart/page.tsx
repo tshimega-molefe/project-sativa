@@ -85,10 +85,10 @@ const Page = () => {
                   className="relative mb-4 h-40 w-40 text-muted-foreground"
                 >
                   <Image
-                    src="/sativa-empty-cart.png"
+                    src="/budd-empty-cart.png"
                     fill
                     loading="eager"
-                    alt="empty shopping cart sativa"
+                    alt="empty shopping cart budd"
                   />
                 </div>
                 <h3 className="font-semibold text-2xl">Your cart is empty</h3>

@@ -31,14 +31,10 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
     return (
       <div className="flex h-full flex-col items-center justify-center">
         <div className="relative mb-4 h-60 w-60 text-muted-foreground">
-          <Image
-            src="/sativa-welcome-image.png"
-            fill
-            alt="the email was sent"
-          />
+          <Image src="/budd-welcome-image.png" fill alt="the email was sent" />
         </div>
         <h3 className="font-semibold text-2xl">
-          Welcome to <span className="text-primary">Sativa!</span>
+          Welcome to <span className="text-primary">Budd!</span>
         </h3>
         <p className="text-muted-foreground text-center mt-2">
           Thank you for verifying your identity.
@@ -58,7 +54,7 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
       <div className="flex flex-col items-center gap-2">
         <div className="relative mb-2 h-60 w-60 text-muted-foreground">
           <Image
-            src="/sativa-verifying-email.png"
+            src="/budd-verifying-email.png"
             fill
             alt="the email was sent"
           />

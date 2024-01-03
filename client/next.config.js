@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "sativa.up.railway.app",
+        hostname: "budd.up.railway.app",
       },
     ],
   },

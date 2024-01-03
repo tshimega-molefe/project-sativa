@@ -34,15 +34,15 @@ export const EmailTemplate = ({
       <Body style={main}>
         <Container style={container}>
           <Img
-            src={`${process.env.NEXT_PUBLIC_SERVER_URL}/sativa-welcome-image.png`}
+            src={`${process.env.NEXT_PUBLIC_SERVER_URL}/budd-welcome-image.png`}
             width="150"
             height="150"
-            alt="Sativa"
+            alt="Budd"
             style={logo}
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to Sativa, the marketplace for high quality Cannabis, Hemp,
+            Welcome to Budd, the marketplace for high quality Cannabis, Hemp,
             and CBD goods. Use the button below to {actionLabel}.
           </Text>
           <Section style={btnContainer}>
@@ -53,7 +53,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The Sativa team
+            The Budd team
           </Text>
           <Hr style={hr} />
           <Text style={footer}>

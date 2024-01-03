@@ -7,18 +7,17 @@ import Link from "next/link";
 
 const features = [
   {
-    name: "Guaranteed Quality",
-    icon: CheckCircle,
-    description:
-      "Every vender on Sativa is verified by our team to uphold safety, and security standards.",
-  },
-  {
     name: "UAV Delivery",
     icon: PlaneTakeoff,
     description:
       "We're trying to raise some funds. Stick around with us 'till we can do delivery with UAVs.",
   },
-
+  {
+    name: "Guaranteed Quality",
+    icon: CheckCircle,
+    description:
+      "Every vender on Budd is verified by our team to uphold safety, and security standards.",
+  },
   {
     name: "Learn More",
     icon: GraduationCap,
@@ -33,8 +32,8 @@ export default function Home() {
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-secondary-foreground sm:text-6xl">
-            Got&nbsp;
-            <span className="text-primary">Green?</span>
+            Need&nbsp;
+            <span className="text-primary">Budd?</span>
           </h1>
           <p className="mt-6 text-lg max-w-prose text-primary">
             Welcome back.&nbsp;
@@ -44,9 +43,14 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Link href="/products" className={cn(buttonVariants())}>
-              Browse Trending
+              Browse Flower
             </Link>
-            <Button variant="ghost">Our Quality Promise &rarr;</Button>
+            <Link
+              href="/learn"
+              className={cn(buttonVariants({ variant: "ghost" }))}
+            >
+              Learn with Buddy &rarr;
+            </Link>
           </div>
         </div>
         {/* TODO: List Products */}

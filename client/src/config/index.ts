@@ -1,22 +1,22 @@
 export const PRODUCT_CATEGORIES = [
   {
     label: "Green",
-    value: "sativa" as const,
+    value: "budd" as const,
     featured: [
       {
         name: "Recommended",
         href: "/products/?category=green",
-        imageSrc: "/nav/sativa/sativa-indoor.jpg",
+        imageSrc: "/nav/budd/budd-indoor.jpg",
       },
       {
         name: "New Arrivals",
         href: "/products/?category=green&sort=desc",
-        imageSrc: "/nav/sativa/sativa-outdoor.jpg",
+        imageSrc: "/nav/budd/budd-outdoor.jpg",
       },
       {
         name: "Best Sellers",
         href: "/products/?category=green",
-        imageSrc: "/nav/sativa/sativa-greenhouse.jpg",
+        imageSrc: "/nav/budd/budd-greenhouse.jpg",
       },
     ],
   },
